@@ -1,0 +1,36 @@
+.section{
+    display: flex;
+    background-color: rgb(34, 28, 28);
+    backdrop-filter: blur(100px);
+    border: 3px ;
+    border-radius: 0px;
+}
+
+.btn-container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-content: center;
+}
+
+.info{
+    margin: 35px 0 0 5px;
+    color: white;
+    font: caption;
+    font-size: x-large;
+}
+.btn-funtion{
+    height: 50px;
+    width: auto;
+    margin: 25px 5px 0 0;
+    font:caption ;
+    color: white;
+    background-color: rgb(34, 28, 28);
+    border: 0;
+    
+}
+.btn-funtion:focus {
+    border-bottom: 2px solid white;
+    transition: border-bottom 0.1s ease-in; 
+}
