@@ -1,0 +1,28 @@
+.list-btn{
+    display: flex;
+    margin: 10px;
+}
+
+.btn-funtion{
+    margin-left: 10px;
+    border-radius: 4px;
+    color: white;
+    animation: changeColour 1s infinite;
+}
+@keyframes changeColour {
+    0% {
+        background-color: rgb(87, 231, 118);
+    }
+    25%{
+        background-color: rgb(59, 187, 108);
+    }
+    50%{
+        background-color: rgb(63, 143, 43);
+    }
+    75%{
+        background-color: rgb(25, 87, 49);
+    }
+    100%{
+        background-color: rgb(14, 61, 32);
+    }
+}
