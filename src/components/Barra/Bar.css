@@ -1,36 +1,42 @@
-.section{
-    display: flex;
-    background-color: rgb(34, 28, 28);
-    backdrop-filter: blur(100px);
-    border: 3px ;
-    border-radius: 0px;
+.bar-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(34, 28, 28);
 }
 
-.btn-container{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    align-content: center;
+.section {
+  display: flex;
+  background-color: rgb(34, 28, 28);
+  border: 3px;
+  border-radius: 0px;
 }
 
-.info{
-    margin: 35px 0 0 5px;
-    color: white;
-    font: caption;
-    font-size: x-large;
+.btn-container {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-content: center;
 }
-.btn-funtion{
-    height: 50px;
-    width: auto;
-    margin: 25px 5px 0 0;
-    font:caption ;
-    color: white;
-    background-color: rgb(34, 28, 28);
-    border: 0;
-    
+
+.info {
+  margin: 35px 0 0 5px;
+  color: white;
+  font: caption;
+  font-size: x-large;
+}
+.btn-funtion {
+  height: 50px;
+  width: auto;
+  margin: 25px 5px 0 0;
+  font: caption;
+  color: white;
+  background-color: rgb(34, 28, 28);
+  border: 0;
 }
 .btn-funtion:focus {
-    border-bottom: 2px solid white;
-    transition: border-bottom 0.1s ease-in; 
+  border-bottom: 2px solid white;
+  transition: border-bottom 0.1s ease-in;
 }

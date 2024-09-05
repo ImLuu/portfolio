@@ -1,0 +1,112 @@
+.initial-container {
+  margin: 0;
+}
+
+.initial-text{
+  display: flex;
+  background-color: rgb(34, 28, 28);
+  color: white;
+  height: auto;
+  width: 650px;
+  margin: 0 0 10px 60px;
+  font-size: 15px;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.image-info {
+  display: flex;
+  background-color: rgb(34, 28, 28);
+  
+}
+.box {
+  height: 300px;
+}
+
+.imagen-vista {
+  display: flex;
+  width: 270px;
+  height: auto;
+  margin: 10px 5px 10px 40px;
+  background-image: url("../../image/fotito.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.imagen-vista2{
+    display: flex;
+    width: 270px;
+    height: auto;
+    margin: 10px 5px 10px 40px;
+    background-image: url("../../image/images.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+.content-1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px 0 10px 0;
+  background-color: rgb(34, 28, 28);
+}
+
+/* Media query para pantallas medianas (tablets) */
+@media (max-width: 768px) {
+    .initial-text {
+      width: 90%; /* Reduce el ancho en pantallas más pequeñas */
+      margin: 20px auto; /* Ajusta el margen para centrar */
+      font-size: 14px; /* Reduce el tamaño del texto */
+    }
+  
+    .imagen-vista {
+      width: 80%; /* Ajusta la imagen a ocupar el 80% del ancho disponible */
+      margin: 20px auto; /* Centra la imagen */
+    }
+ 
+  
+    .content-1 {
+      font-size: 30px; /* Ajusta el tamaño del título */
+      text-align: center; /* Centra el texto */
+    }
+  
+    .box {
+      height: auto; /* Deja que la altura sea dinámica */
+      padding: 20px; /* Añade espacio interior */
+    }
+  }
+  
+  /* Media query para pantallas pequeñas (móviles) */
+  @media (max-width: 480px) {
+    .initial-text {
+      width: 95%; /* Ocupar casi todo el ancho de la pantalla */
+      font-size: 12px; /* Texto más pequeño */
+      margin: 15px auto;
+    }
+  
+    .imagen-vista {
+      width: 100%; /* Ocupa todo el ancho disponible */
+      height: auto; /* Ajusta la altura proporcionalmente */
+      margin: 10px auto; /* Centra la imagen */
+    }
+
+    .content-1 {
+      font-size: 20px; /* Texto más pequeño para móviles */
+      margin: 10px 0; /* Reduce el margen */
+    }
+  
+    .box {
+      height: auto; /* Deja que la altura se ajuste automáticamente */
+      padding: 10px; /* Menos espacio en pantallas pequeñas */
+    }
+  }
+
+  .title{
+    color: white;
+    font-weight: bolder;
+  }

@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Bar.css"
-import { Inicio , Titulo } from './Bar.js';
-
+import { Perfil , Titulo ,Experiencia } from './../../code/Functions';
 function Bar() {
   return (
     <>
@@ -9,9 +8,9 @@ function Bar() {
             <div className='section'>
                 <div className='info'> Portafolio </div>
                 <div className='btn-container'>
-                    <button className='btn-funtion' onClick={() => Inicio()} > Inicio</button>
+                    <button className='btn-funtion' onClick={() => Perfil()} > Perfil</button>
                     <button className='btn-funtion' onClick={() => Titulo()}> Titulo</button>
-                    <button className='btn-funtion' > Experiencia</button>
+                    <button className='btn-funtion' onClick={() => Experiencia()}> Experiencia</button>
                     <button className='btn-funtion' > Contacto</button>
                 </div>
             </div>
@@ -19,5 +18,4 @@ function Bar() {
     </>
   )
 }
-
 export default Bar
