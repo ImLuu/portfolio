@@ -6,13 +6,13 @@ function Body1() {
         <>
             <div className='initial-container' >
                 <div className='box' id="inicio">
-                    <div className='content-1'>Luis Felipe Molina Cortés</div>
+                    <div className='content-1'>¿Quien soy?</div>
                     
                     <div className='image-info'>
                         <div className="imagen-vista"></div>
-                        <text className='initial-text'>  Egresado de la carrera de Ingeniería Civil en Computación e informática en Universidad Católica de Norte Sede Coquimbo,
+                        <text className='initial-text'>  Mi nombre es Luis Felipe Molina Cortés, egresado de la carrera de Ingeniería Civil en Computación e informática en Universidad Católica de Norte Sede Coquimbo,
                             comprometido con el trabajo, puntual, responsable, de rápido aprendizaje y capaz de liderar y brindar un apoyo excepcional.
-                            Participante en proyectos relacionados a la carrera y actividades extracurriculares desarrollando software, ya sea como líder o
+                            Fui participante en proyectos relacionados a la carrera y actividades extracurriculares desarrollando software, ya sea como líder o
                             como miembro del equipo de desarrollo, llevando a la creación sistemas completos y escalables utilizando tecnologías
                             modernas.
                             Mi objetivo es seguir aprendiendo técnicas para así desarrollarme tanto como Ingeniero Civil informático y de manera

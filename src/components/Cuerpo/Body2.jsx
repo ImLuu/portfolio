@@ -6,18 +6,23 @@ function Body2() {
         <>
             <div className='initial-container' >
                 <div className='box' id="titulo">
-                    <div className='content-1'>Titulo Profesional</div>
+                    <div className='content-1'>Estudios</div>
 
                     <div className='image-info'>
-                        <text className='initial-text'>  Egresado de la carrera de Ingeniería Civil en Computación e informática en Universidad Católica de Norte Sede Coquimbo,
-                            comprometido con el trabajo, puntual, responsable, de rápido aprendizaje y capaz de liderar y brindar un apoyo excepcional.
-                            Participante en proyectos relacionados a la carrera y actividades extracurriculares desarrollando software, ya sea como líder o
-                            como miembro del equipo de desarrollo, llevando a la creación sistemas completos y escalables utilizando tecnologías
-                            modernas.
-                            Mi objetivo es seguir aprendiendo técnicas para así desarrollarme tanto como Ingeniero Civil informático y de manera
-                            personal además de poder adaptarme en varios entornos de trabajo e interesado en compartir mis conocimientos en cualquier
-                            área designada. </text>
+                        <text className='initial-text'>
+                            Enseñanza Superior : Universidad Católica del Norte
+                            Sede Coquimbo (2014 - 2024)  (Completa)
+                            - Ingeniero Civil en Computación e Informática.
+                        </text>
                         <div className="imagen-vista2"></div>
+
+                        <text className='initial-text'>
+                            Enseñanza Básica y Media : Colegio Gerónimo Rendic La
+                            Serena (2001 -2013)  (Completa) 
+                            - Egresado de Enseñanza Media
+                        </text>
+
+                        <div className="imagen-vista3"></div>
 
                     </div>
                 </div>

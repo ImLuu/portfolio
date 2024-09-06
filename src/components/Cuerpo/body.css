@@ -36,10 +36,22 @@
 }
 .imagen-vista2{
     display: flex;
-    width: 270px;
-    height: auto;
+    width: 350px;
+    height: 200px;
     margin: 10px 5px 10px 40px;
     background-image: url("../../image/images.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+
+  .imagen-vista3{
+    display: flex;
+    width: 350px;
+    height: 200px;
+    margin: 10px 5px 10px 40px;
+    background-image: url("../../image/insignia.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,6 +91,10 @@
       height: auto; /* Deja que la altura sea dinámica */
       padding: 20px; /* Añade espacio interior */
     }
+    .container-info{
+      font-size: 30px; /* Ajusta el tamaño del título */
+      text-align: center; /* Centra el texto */
+    }
   }
   
   /* Media query para pantallas pequeñas (móviles) */
@@ -104,9 +120,25 @@
       height: auto; /* Deja que la altura se ajuste automáticamente */
       padding: 10px; /* Menos espacio en pantallas pequeñas */
     }
+    .container-info{
+      font-size: 20px; /* Texto más pequeño para móviles */
+      margin: 10px 0;
+    }
+  
   }
 
   .title{
     color: white;
     font-weight: bolder;
+  }
+
+  .container-info{
+    display: grid;
+    flex-direction: row;
+    background-color: rgb(34, 28, 28);
+  }
+
+  .title-content{
+    color: white;
+    font-size: 15px;
   }

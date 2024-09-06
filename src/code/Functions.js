@@ -4,8 +4,8 @@ export function Perfil()  {
    
    }
    
-export function Titulo()  {
-       console.log("Se apreto el boton TITULO");
+export function Estudio()  {
+       console.log("Se apreto el boton Estudio");
        document.getElementById('titulo').scrollIntoView({ behavior: 'smooth' });
    }
       
