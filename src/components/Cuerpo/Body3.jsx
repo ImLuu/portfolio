@@ -24,17 +24,13 @@ function Body3() {
                             Diseño de página web para Veterinaria Puertas Del Mar – Desarrollador  (Agosto 2022 - Diciembre 2022) :
                         </p >
                         <p className='title-content'>
-                            Sistema generado para la Veterinaria Puertas del Mar (La Serena) destinada a la venta de insumos para animales y agendar horas de 
-                            atención. Creada utilizando React junto a NodeJs junto a MongoDB como base de datos.
+                            
                         </p>
                         <p className='title'>
                             Sistema web de Oferta Académica para Universidad Católica del Norte – Soporte (Abril 2021- Agosto 2021) :
                         </p >
                         <p className='title-content'>
-                            Sistema especial utilizado en la Universidad Catolica del Norte (Sede Coquimbo) capaz de generar estimaciones de Estudiantes que
-                            habrá en un determinada Asignatura además de verificar la disponibilidad de Salas. Creada utilizando React y NodeJS 
-                            junto con Postgresql como base de datos.
-
+                            
                         </p>
 
                     </div>
