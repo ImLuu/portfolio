@@ -9,7 +9,7 @@ export function Estudio()  {
        document.getElementById('titulo').scrollIntoView({ behavior: 'smooth' });
    }
       
-   export function Experiencia()  {
+export function Experiencia()  {
     console.log("Se apreto el boton experiencia");
     document.getElementById('experience').scrollIntoView({ behavior: 'smooth' });
 }

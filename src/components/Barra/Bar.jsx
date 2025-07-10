@@ -6,7 +6,7 @@ function Bar() {
     <>
         <div className='bar-container'>
             <div className='section'>
-                <div className='info'> Portafolio </div>
+                <div className='info' > Portafolio </div>
                 <div className='btn-container'>
                     <button className='btn-funtion' onClick={() => Perfil()} > Sobre Mi</button>
                     <button className='btn-funtion' onClick={() => Estudio()}> Estudios </button>

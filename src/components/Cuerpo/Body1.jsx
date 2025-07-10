@@ -4,8 +4,8 @@ import './body.css'
 function Body1() {
     return (
         <>
-            <div className='initial-container' >
-                <div className='box' id="inicio">
+            <div className='initial-container'>
+                <div className='box'  id="inicio" >
                     <div className='content-1'>¿Quien soy?</div>
                     
                     <div className='image-info'>
