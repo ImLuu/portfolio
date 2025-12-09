@@ -4,7 +4,7 @@ import { Perfil , Estudio ,Experiencia } from './../../code/Functions';
 function Bar() {
   return (
     <>
-        <div className='bar-container'>
+        <navbar className='bar-container'>
             <div className='section'>
                 <div className='info' > Portafolio </div>
                 <div className='btn-container'>
@@ -14,7 +14,7 @@ function Bar() {
                     <button className='btn-funtion' > Contacto</button>
                 </div>
             </div>
-        </div>
+        </navbar>
     </>
   )
 }
