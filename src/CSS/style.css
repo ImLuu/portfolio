@@ -4,7 +4,7 @@
     justify-content: center;
     min-height: 50vh;
     width: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, white 0%, gray 100%);
     flex-direction: column;
     margin: 50px;
     border-radius: 12px;
@@ -13,7 +13,7 @@
 .aboutme-title{
     height: 70px;
     width: 30%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, white 0%, gray 100%);
     font-size: 40px;
     font-weight: 300;   
     color: white;
@@ -37,6 +37,10 @@
     object-fit: cover;
     display: block;
     border-radius: 12px;
+}
+
+.aboutme-back{
+    display: inline-flex;
 }
 
 @media (max-width: 768px) {
