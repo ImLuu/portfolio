@@ -43,6 +43,8 @@
     display: inline-flex;
 }
 
+
+
 @media (max-width: 768px) {
     .aboutme-photo{
         height: 200px;

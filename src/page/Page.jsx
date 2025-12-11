@@ -1,7 +1,7 @@
 import React from 'react';
 import Bar from  '../components/Barra/Bar.jsx';
 import AboutMe from '../components/Cuerpo/AboutMe.jsx';
-import Body2 from '../components/Cuerpo/Body2.jsx';
+import Estudio from '../components/Cuerpo/Estudio.jsx';
 import Body3 from './../components/Cuerpo/Body3';
 
 
@@ -11,7 +11,7 @@ const Page = () => {
     <>
         <Bar />
         <AboutMe />
-        <Body2 />
+        <Estudio />
         <Body3/>
     </>
   )
